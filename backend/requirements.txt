@@ -1,0 +1,5 @@
+Flask==2.0.3
+tensorflow==2.16.1  # Without the 'tensorflow-intel'
+opencv-python==4.5.3.56
+Flask-Cors==3.0.10
+pillow==8.4.0
