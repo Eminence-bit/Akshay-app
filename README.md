@@ -22,7 +22,7 @@ Installation
 
 #### bash
 Copy code
-git clone https://github.com/yourusername/medical-analysis-app.git
+https://github.com/Eminence-bit/Akshay-app.git
 cd medical-analysis-app
 Install frontend dependencies:
 
@@ -30,7 +30,7 @@ Install frontend dependencies:
 Copy code
 cd frontend
 npm install
-Set up the backend:
+## Set up the backend:
 
 #### bash
 Copy code
