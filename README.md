@@ -1,7 +1,7 @@
 # Akshay-app
  
 # Medical Analysis Application
-# Overview
+## Overview
 Welcome to the Medical Analysis Application! This innovative project combines advanced AI capabilities with user-friendly design to provide a comprehensive tool for medical image analysis and interactive chatbot assistance. Whether you’re a healthcare professional, a student, or just someone curious about medical diagnostics, this app is tailored for you.
 
 # Features
