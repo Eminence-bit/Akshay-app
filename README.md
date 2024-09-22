@@ -36,7 +36,7 @@ npm install
 Copy code
 cd backend
 pip install -r requirements.txt
-Run the backend server:
+### Run the backend server:
 
 #### bash
 Copy code
@@ -46,6 +46,7 @@ Start the mobile application:
 #### bash
 Copy code
 cd frontend
+cd MedicalAnalysisFrontend
 npm start
 Contributing
 We welcome contributions! If you have suggestions for improvements or features, feel free to fork the repository and submit a pull request.
