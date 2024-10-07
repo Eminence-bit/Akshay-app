@@ -1,58 +1,73 @@
-# Medical Analysis Application
-## Overview
-Welcome to the Medical Analysis Application! This innovative project combines advanced AI capabilities with user-friendly design to provide a comprehensive tool for medical image analysis and interactive chatbot assistance. Whether you’re a healthcare professional, a student, or just someone curious about medical diagnostics, this app is tailored for you.
+Here's the updated README reflecting your use of Kaggle datasets and the TensorFlow library:
+
+---
+
+# Akshay App
+
+Akshay App is a medical healthcare application designed to assist users by analyzing images of injuries or conditions, providing basic first-aid solutions, and answering health-related queries via a chatbot. The app uses machine learning models for image analysis and conversational AI for the chatbot. The project is still in development, with improvements to the image analysis model's efficiency currently in progress.
+
+## Table of Contents
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Technologies Used](#technologies-used)
+- [Contributing](#contributing)
+- [License](#license)
 
 ## Features
-Image Analysis: Effortlessly upload and analyze medical images to receive detailed insights and precautions.
-Chatbot Assistance: Engage with our intelligent chatbot that can answer your medical queries and provide guidance.
-User-Friendly Interface: Enjoy a smooth and intuitive experience, whether you're navigating the app or interacting with features.
-Real-Time Responses: Get immediate feedback and information through interactive dialogue and analysis results.
-Technologies Used
-React Native: For building a responsive and cross-platform mobile application.
-Expo: Simplifies the development process with easy image picking and app deployment.
-TensorFlow & Keras: Powering our AI models for image analysis and predictive insights.
-Flask: Serving as our backend, managing requests, and processing data.
-Getting Started
-Prerequisites
-Node.js
-Python 3.x
-TensorFlow
-Installation
-## Clone the repository:
+- **Image Analysis**: Identifies on-site problems from uploaded images and provides basic first-aid suggestions.
+- **Chatbot**: Answers user queries and provides medical advice or information.
+- The current version has the image analysis model implemented but needs further optimization for better accuracy.
 
-#### bash
-Copy code
-https://github.com/Eminence-bit/Akshay-app.git
-cd medical-analysis-app
-Install frontend dependencies:
+## Installation
 
-#### bash
-Copy code
-cd frontend
-npm install
-## Set up the backend:
+1. Clone this repository:
+    ```bash
+    git clone https://github.com/Eminence-bit/Akshay-app.git
+    cd Akshay-app
+    ```
 
-#### bash
-Copy code
-cd backend
-pip install -r requirements.txt
-### Run the backend server:
+2. Navigate to the project folder and install the necessary dependencies:
+    ```bash
+    cd frontend  
+    npm install
+    ```
 
-#### bash
-Copy code
-flask run
-Start the mobile application:
+3. Start the app using Expo:
+    ```bash
+    npx expo start
+    ```
 
-#### bash
-Copy code
-cd frontend
-cd MedicalAnalysisFrontend
-npm start
-Contributing
-We welcome contributions! If you have suggestions for improvements or features, feel free to fork the repository and submit a pull request.
+4. Navigate to the backend directory and set up the Flask server:
+    ```bash
+    cd backend
+    pip install -r requirements.txt
+    ```
+
+5. Run the Flask server:
+    ```bash
+    flask run
+    ```
+
+## Usage
+
+- The app allows users to upload images of their injury or condition, and it provides basic first aid solutions based on the analysis.
+- The chatbot is designed to answer health-related queries but is still under development.
+- Note: The current image analysis model may not be highly accurate and is being optimized.
+
+## Technologies Used
+
+- **React Native**: Frontend framework for building the mobile app.
+- **Python (Flask)**: Backend server and API for running the machine learning model and chatbot.
+- **TensorFlow**: Library used for training the machine learning models.
+- **Kaggle Datasets**: Data source for training the models.
+- **Expo**: Development environment and toolchain for React Native.
+
+## Contributing
+
+This project is open to contributions! If you have suggestions for improving the model or the app, feel free to fork the repository, make changes, and submit a pull request.
 
 ## License
-This project is licensed under the MIT License - see the LICENSE file for details.
 
-## Contact
-For questions or feedback, reach out to us at prajyothnani123@gmail.com.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
