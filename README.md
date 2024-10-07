@@ -1,7 +1,3 @@
-Here's the updated README reflecting your use of Kaggle datasets and the TensorFlow library:
-
----
-
 # Akshay App
 
 Akshay App is a medical healthcare application designed to assist users by analyzing images of injuries or conditions, providing basic first-aid solutions, and answering health-related queries via a chatbot. The app uses machine learning models for image analysis and conversational AI for the chatbot. The project is still in development, with improvements to the image analysis model's efficiency currently in progress.
